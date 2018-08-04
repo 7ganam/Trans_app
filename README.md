@@ -5,6 +5,6 @@ tasks:
 - [x] 2. get screenshot from x server.
 - [x] 3. get screenshot of only the word under the cursor using openCV.
 - [x] 4. use OCR on the word.
-- [ ] 5. solve the border problem.
+- [x] 5. solve the border problem.
 - [ ] 6. parse the word to delete any "_" or ":" chars.
 - [ ] 7. apply translation.
