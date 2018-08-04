@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/ganam/Desktop/translat_git_app/get_screen_size.h
-X11/Xlib.h
--
-stdio.h
--
-
 /home/ganam/Desktop/translat_git_app/screen_shot.cpp
 X11/Xlib.h
 -
@@ -27,18 +21,12 @@ X11/Xlib.h
 -
 stdio.h
 -
-get_screen_size.h
-/home/ganam/Desktop/translat_git_app/get_screen_size.h
 opencv2/core/core.hpp
 -
 opencv2/highgui/highgui.hpp
 -
 opencv2/imgproc/imgproc.hpp
 -
-
-/usr/local/include/opencv/cxcore.h
-opencv2/core/core_c.h
-/usr/local/include/opencv/opencv2/core/core_c.h
 
 /usr/local/include/opencv2/calib3d.hpp
 opencv2/core.hpp
@@ -47,12 +35,6 @@ opencv2/features2d.hpp
 /usr/local/include/opencv2/opencv2/features2d.hpp
 opencv2/core/affine.hpp
 /usr/local/include/opencv2/opencv2/core/affine.hpp
-opencv2/calib3d/calib3d_c.h
-/usr/local/include/opencv2/opencv2/calib3d/calib3d_c.h
-
-/usr/local/include/opencv2/calib3d/calib3d_c.h
-opencv2/core/core_c.h
-/usr/local/include/opencv2/calib3d/opencv2/core/core_c.h
 
 /usr/local/include/opencv2/core.hpp
 opencv2/core/cvdef.h
@@ -115,16 +97,6 @@ opencv2/core/base.hpp
 /usr/local/include/opencv2/core/core.hpp
 opencv2/core.hpp
 /usr/local/include/opencv2/core/opencv2/core.hpp
-
-/usr/local/include/opencv2/core/core_c.h
-opencv2/core/types_c.h
-/usr/local/include/opencv2/core/opencv2/core/types_c.h
-cxcore.h
-/usr/local/include/opencv2/core/cxcore.h
-cxcore.h
-/usr/local/include/opencv2/core/cxcore.h
-opencv2/core/utility.hpp
-/usr/local/include/opencv2/core/opencv2/core/utility.hpp
 
 /usr/local/include/opencv2/core/cuda.hpp
 opencv2/core.hpp
@@ -257,8 +229,6 @@ fastmath.h
 -
 math.h
 -
-tegra_round.hpp
-/usr/local/include/opencv2/core/tegra_round.hpp
 
 /usr/local/include/opencv2/core/hal/interface.h
 cstddef
@@ -354,24 +324,6 @@ opencv2/core/cvstd.hpp
 opencv2/core/matx.hpp
 /usr/local/include/opencv2/core/opencv2/core/matx.hpp
 
-/usr/local/include/opencv2/core/types_c.h
-ipl.h
--
-ipl/ipl.h
--
-opencv2/core/cvdef.h
-/usr/local/include/opencv2/core/opencv2/core/cvdef.h
-assert.h
--
-stdlib.h
--
-string.h
--
-float.h
--
-opencv2/core.hpp
-/usr/local/include/opencv2/core/opencv2/core.hpp
-
 /usr/local/include/opencv2/core/utility.hpp
 opencv2/core.hpp
 /usr/local/include/opencv2/core/opencv2/core.hpp
@@ -379,8 +331,8 @@ ostream
 -
 functional
 -
-opencv2/core/core_c.h
-/usr/local/include/opencv2/core/opencv2/core/core_c.h
+mutex
+-
 
 /usr/local/include/opencv2/core/version.hpp
 
@@ -865,48 +817,22 @@ opencv2/imgcodecs.hpp
 /usr/local/include/opencv2/opencv2/imgcodecs.hpp
 opencv2/videoio.hpp
 /usr/local/include/opencv2/opencv2/videoio.hpp
-opencv2/highgui/highgui_c.h
-/usr/local/include/opencv2/opencv2/highgui/highgui_c.h
 
 /usr/local/include/opencv2/highgui/highgui.hpp
 opencv2/highgui.hpp
 /usr/local/include/opencv2/highgui/opencv2/highgui.hpp
 
-/usr/local/include/opencv2/highgui/highgui_c.h
-opencv2/core/core_c.h
-/usr/local/include/opencv2/highgui/opencv2/core/core_c.h
-opencv2/imgproc/imgproc_c.h
-/usr/local/include/opencv2/highgui/opencv2/imgproc/imgproc_c.h
-opencv2/imgcodecs/imgcodecs_c.h
-/usr/local/include/opencv2/highgui/opencv2/imgcodecs/imgcodecs_c.h
-opencv2/videoio/videoio_c.h
-/usr/local/include/opencv2/highgui/opencv2/videoio/videoio_c.h
-
 /usr/local/include/opencv2/imgcodecs.hpp
 opencv2/core.hpp
 /usr/local/include/opencv2/opencv2/core.hpp
 
-/usr/local/include/opencv2/imgcodecs/imgcodecs_c.h
-opencv2/core/core_c.h
-/usr/local/include/opencv2/imgcodecs/opencv2/core/core_c.h
-
 /usr/local/include/opencv2/imgproc.hpp
 opencv2/core.hpp
 /usr/local/include/opencv2/opencv2/core.hpp
-opencv2/imgproc/imgproc_c.h
-/usr/local/include/opencv2/opencv2/imgproc/imgproc_c.h
 
 /usr/local/include/opencv2/imgproc/imgproc.hpp
 opencv2/imgproc.hpp
 /usr/local/include/opencv2/imgproc/opencv2/imgproc.hpp
-
-/usr/local/include/opencv2/imgproc/imgproc_c.h
-opencv2/imgproc/types_c.h
-/usr/local/include/opencv2/imgproc/opencv2/imgproc/types_c.h
-
-/usr/local/include/opencv2/imgproc/types_c.h
-opencv2/core/core_c.h
-/usr/local/include/opencv2/imgproc/opencv2/core/core_c.h
 
 /usr/local/include/opencv2/ml.hpp
 opencv2/core.hpp
@@ -927,19 +853,9 @@ opencv2/core.hpp
 /usr/local/include/opencv2/opencv2/core.hpp
 opencv2/objdetect/detection_based_tracker.hpp
 /usr/local/include/opencv2/opencv2/objdetect/detection_based_tracker.hpp
-opencv2/objdetect/objdetect_c.h
-/usr/local/include/opencv2/opencv2/objdetect/objdetect_c.h
 
 /usr/local/include/opencv2/objdetect/detection_based_tracker.hpp
 opencv2/core.hpp
--
-vector
--
-
-/usr/local/include/opencv2/objdetect/objdetect_c.h
-opencv2/core/core_c.h
-/usr/local/include/opencv2/objdetect/opencv2/core/core_c.h
-deque
 -
 vector
 -
@@ -1011,12 +927,6 @@ opencv2/core.hpp
 /usr/local/include/opencv2/opencv2/core.hpp
 opencv2/imgproc.hpp
 /usr/local/include/opencv2/opencv2/imgproc.hpp
-opencv2/photo/photo_c.h
-/usr/local/include/opencv2/opencv2/photo/photo_c.h
-
-/usr/local/include/opencv2/photo/photo_c.h
-opencv2/core/core_c.h
-/usr/local/include/opencv2/photo/opencv2/core/core_c.h
 
 /usr/local/include/opencv2/shape.hpp
 opencv2/shape/emdL1.hpp
@@ -1169,8 +1079,6 @@ opencv2/video/tracking.hpp
 /usr/local/include/opencv2/opencv2/video/tracking.hpp
 opencv2/video/background_segm.hpp
 /usr/local/include/opencv2/opencv2/video/background_segm.hpp
-opencv2/video/tracking_c.h
-/usr/local/include/opencv2/opencv2/video/tracking_c.h
 
 /usr/local/include/opencv2/video/background_segm.hpp
 opencv2/core.hpp
@@ -1182,17 +1090,9 @@ opencv2/core.hpp
 opencv2/imgproc.hpp
 /usr/local/include/opencv2/video/opencv2/imgproc.hpp
 
-/usr/local/include/opencv2/video/tracking_c.h
-opencv2/imgproc/types_c.h
-/usr/local/include/opencv2/video/opencv2/imgproc/types_c.h
-
 /usr/local/include/opencv2/videoio.hpp
 opencv2/core.hpp
 /usr/local/include/opencv2/opencv2/core.hpp
-
-/usr/local/include/opencv2/videoio/videoio_c.h
-opencv2/core/core_c.h
-/usr/local/include/opencv2/videoio/opencv2/core/core_c.h
 
 /usr/local/include/opencv2/videostab.hpp
 opencv2/videostab/stabilizer.hpp
@@ -1339,4 +1239,8 @@ opencv2/videostab/global_motion.hpp
 /usr/local/include/opencv2/videostab/opencv2/videostab/global_motion.hpp
 opencv2/videostab/log.hpp
 /usr/local/include/opencv2/videostab/opencv2/videostab/log.hpp
+
+/usr/local/include/opencv2/xfeatures2d/cuda.hpp
+opencv2/core/cuda.hpp
+/usr/local/include/opencv2/xfeatures2d/opencv2/core/cuda.hpp
 

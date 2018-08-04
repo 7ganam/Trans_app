@@ -15,8 +15,9 @@ include_directories(${X11_INCLUDE_DIR})
 
 add_executable(screen_shot screen_shot.cpp)
 add_executable(get_screen_size get_screen_size.cpp)
+add_executable(partial_sh partial_sh.cpp)
 
-
+add_executable(croped_translate croped_translate.cpp)
 
 # Set the output folder where your program will be created
 set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/bin)
@@ -30,4 +31,5 @@ include_directories("${PROJECT_SOURCE_DIR}")
 find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 target_link_libraries( screen_shot ${OpenCV_LIBS} ) 
-
+target_link_libraries( partial_sh ${OpenCV_LIBS} ) 
+target_link_libraries( croped_translate ${OpenCV_LIBS} ) 

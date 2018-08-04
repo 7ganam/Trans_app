@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named croped_translate
+
+# Build rule for target.
+croped_translate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 croped_translate
+.PHONY : croped_translate
+
+# fast build rule for target.
+croped_translate/fast:
+	$(MAKE) -f CMakeFiles/croped_translate.dir/build.make CMakeFiles/croped_translate.dir/build
+.PHONY : croped_translate/fast
+
+#=============================================================================
+# Target rules for targets named partial_sh
+
+# Build rule for target.
+partial_sh: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 partial_sh
+.PHONY : partial_sh
+
+# fast build rule for target.
+partial_sh/fast:
+	$(MAKE) -f CMakeFiles/partial_sh.dir/build.make CMakeFiles/partial_sh.dir/build
+.PHONY : partial_sh/fast
+
+#=============================================================================
 # Target rules for targets named screen_shot
 
 # Build rule for target.
@@ -135,6 +161,33 @@ get_screen_size: cmake_check_build_system
 get_screen_size/fast:
 	$(MAKE) -f CMakeFiles/get_screen_size.dir/build.make CMakeFiles/get_screen_size.dir/build
 .PHONY : get_screen_size/fast
+
+croped_translate.o: croped_translate.cpp.o
+
+.PHONY : croped_translate.o
+
+# target to build an object file
+croped_translate.cpp.o:
+	$(MAKE) -f CMakeFiles/croped_translate.dir/build.make CMakeFiles/croped_translate.dir/croped_translate.cpp.o
+.PHONY : croped_translate.cpp.o
+
+croped_translate.i: croped_translate.cpp.i
+
+.PHONY : croped_translate.i
+
+# target to preprocess a source file
+croped_translate.cpp.i:
+	$(MAKE) -f CMakeFiles/croped_translate.dir/build.make CMakeFiles/croped_translate.dir/croped_translate.cpp.i
+.PHONY : croped_translate.cpp.i
+
+croped_translate.s: croped_translate.cpp.s
+
+.PHONY : croped_translate.s
+
+# target to generate assembly for a file
+croped_translate.cpp.s:
+	$(MAKE) -f CMakeFiles/croped_translate.dir/build.make CMakeFiles/croped_translate.dir/croped_translate.cpp.s
+.PHONY : croped_translate.cpp.s
 
 get_screen_size.o: get_screen_size.cpp.o
 
@@ -162,6 +215,33 @@ get_screen_size.s: get_screen_size.cpp.s
 get_screen_size.cpp.s:
 	$(MAKE) -f CMakeFiles/get_screen_size.dir/build.make CMakeFiles/get_screen_size.dir/get_screen_size.cpp.s
 .PHONY : get_screen_size.cpp.s
+
+partial_sh.o: partial_sh.cpp.o
+
+.PHONY : partial_sh.o
+
+# target to build an object file
+partial_sh.cpp.o:
+	$(MAKE) -f CMakeFiles/partial_sh.dir/build.make CMakeFiles/partial_sh.dir/partial_sh.cpp.o
+.PHONY : partial_sh.cpp.o
+
+partial_sh.i: partial_sh.cpp.i
+
+.PHONY : partial_sh.i
+
+# target to preprocess a source file
+partial_sh.cpp.i:
+	$(MAKE) -f CMakeFiles/partial_sh.dir/build.make CMakeFiles/partial_sh.dir/partial_sh.cpp.i
+.PHONY : partial_sh.cpp.i
+
+partial_sh.s: partial_sh.cpp.s
+
+.PHONY : partial_sh.s
+
+# target to generate assembly for a file
+partial_sh.cpp.s:
+	$(MAKE) -f CMakeFiles/partial_sh.dir/build.make CMakeFiles/partial_sh.dir/partial_sh.cpp.s
+.PHONY : partial_sh.cpp.s
 
 screen_shot.o: screen_shot.cpp.o
 
@@ -198,11 +278,19 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... croped_translate"
+	@echo "... partial_sh"
 	@echo "... screen_shot"
 	@echo "... get_screen_size"
+	@echo "... croped_translate.o"
+	@echo "... croped_translate.i"
+	@echo "... croped_translate.s"
 	@echo "... get_screen_size.o"
 	@echo "... get_screen_size.i"
 	@echo "... get_screen_size.s"
+	@echo "... partial_sh.o"
+	@echo "... partial_sh.i"
+	@echo "... partial_sh.s"
 	@echo "... screen_shot.o"
 	@echo "... screen_shot.i"
 	@echo "... screen_shot.s"

@@ -5,14 +5,13 @@
 #include <vector>
 #include <X11/Xlib.h>
 #include <stdio.h>
-#include "get_screen_size.h"
-
-//#include <opencv2/opencv.hpp>
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 
 using namespace cv;
+
+
 void ImageFromDisplay(std::vector<uint8_t>& Pixels, int& Width, int& Height, int& BitsPerPixel)
 {
     Display* display = XOpenDisplay(nullptr);
@@ -38,11 +37,11 @@ int main()
 {
    int w, h,d;
 
-     getRootWindowSize(&w, &h,&d);
+     //getRootWindowSize(&w, &h,&d);
     
-    int Width = w;
-    int Height = h;
-    int Bpp = d;
+    int Width = 0;
+    int Height = 0;
+    int Bpp = 0;
     std::vector<std::uint8_t> Pixels;
 
     ImageFromDisplay(Pixels, Width, Height, Bpp);
@@ -51,7 +50,7 @@ int main()
     {
         Mat img = Mat(Height, Width, Bpp > 24 ? CV_8UC4 : CV_8UC3, &Pixels[0]); //Mat(Size(Height, Width), Bpp > 24 ? CV_8UC4 : CV_8UC3, &Pixels[0]); 
 
-        namedWindow("WindowTitle", WINDOW_AUTOSIZE);
+        //namedWindow("WindowTitle", WINDOW_AUTOSIZE);
         imshow("Display window", img);
 
         waitKey(0);

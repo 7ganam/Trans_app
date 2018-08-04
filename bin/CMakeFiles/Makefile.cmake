@@ -124,6 +124,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/croped_translate.dir/DependInfo.cmake"
+  "CMakeFiles/partial_sh.dir/DependInfo.cmake"
   "CMakeFiles/screen_shot.dir/DependInfo.cmake"
   "CMakeFiles/get_screen_size.dir/DependInfo.cmake"
   )
