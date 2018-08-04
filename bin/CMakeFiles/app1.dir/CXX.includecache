@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ganam/Desktop/translat_git_app/croped_translate.cpp
+/home/ganam/Desktop/translat_git_app/app1.cpp
 X11/Xlib.h
 -
 X11/Xutil.h

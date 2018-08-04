@@ -111,164 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named croped_translate
+# Target rules for targets named app1
 
 # Build rule for target.
-croped_translate: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 croped_translate
-.PHONY : croped_translate
+app1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 app1
+.PHONY : app1
 
 # fast build rule for target.
-croped_translate/fast:
-	$(MAKE) -f CMakeFiles/croped_translate.dir/build.make CMakeFiles/croped_translate.dir/build
-.PHONY : croped_translate/fast
+app1/fast:
+	$(MAKE) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/build
+.PHONY : app1/fast
 
-#=============================================================================
-# Target rules for targets named partial_sh
+app1.o: app1.cpp.o
 
-# Build rule for target.
-partial_sh: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 partial_sh
-.PHONY : partial_sh
-
-# fast build rule for target.
-partial_sh/fast:
-	$(MAKE) -f CMakeFiles/partial_sh.dir/build.make CMakeFiles/partial_sh.dir/build
-.PHONY : partial_sh/fast
-
-#=============================================================================
-# Target rules for targets named screen_shot
-
-# Build rule for target.
-screen_shot: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 screen_shot
-.PHONY : screen_shot
-
-# fast build rule for target.
-screen_shot/fast:
-	$(MAKE) -f CMakeFiles/screen_shot.dir/build.make CMakeFiles/screen_shot.dir/build
-.PHONY : screen_shot/fast
-
-#=============================================================================
-# Target rules for targets named get_screen_size
-
-# Build rule for target.
-get_screen_size: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 get_screen_size
-.PHONY : get_screen_size
-
-# fast build rule for target.
-get_screen_size/fast:
-	$(MAKE) -f CMakeFiles/get_screen_size.dir/build.make CMakeFiles/get_screen_size.dir/build
-.PHONY : get_screen_size/fast
-
-croped_translate.o: croped_translate.cpp.o
-
-.PHONY : croped_translate.o
+.PHONY : app1.o
 
 # target to build an object file
-croped_translate.cpp.o:
-	$(MAKE) -f CMakeFiles/croped_translate.dir/build.make CMakeFiles/croped_translate.dir/croped_translate.cpp.o
-.PHONY : croped_translate.cpp.o
+app1.cpp.o:
+	$(MAKE) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/app1.cpp.o
+.PHONY : app1.cpp.o
 
-croped_translate.i: croped_translate.cpp.i
+app1.i: app1.cpp.i
 
-.PHONY : croped_translate.i
-
-# target to preprocess a source file
-croped_translate.cpp.i:
-	$(MAKE) -f CMakeFiles/croped_translate.dir/build.make CMakeFiles/croped_translate.dir/croped_translate.cpp.i
-.PHONY : croped_translate.cpp.i
-
-croped_translate.s: croped_translate.cpp.s
-
-.PHONY : croped_translate.s
-
-# target to generate assembly for a file
-croped_translate.cpp.s:
-	$(MAKE) -f CMakeFiles/croped_translate.dir/build.make CMakeFiles/croped_translate.dir/croped_translate.cpp.s
-.PHONY : croped_translate.cpp.s
-
-get_screen_size.o: get_screen_size.cpp.o
-
-.PHONY : get_screen_size.o
-
-# target to build an object file
-get_screen_size.cpp.o:
-	$(MAKE) -f CMakeFiles/get_screen_size.dir/build.make CMakeFiles/get_screen_size.dir/get_screen_size.cpp.o
-.PHONY : get_screen_size.cpp.o
-
-get_screen_size.i: get_screen_size.cpp.i
-
-.PHONY : get_screen_size.i
+.PHONY : app1.i
 
 # target to preprocess a source file
-get_screen_size.cpp.i:
-	$(MAKE) -f CMakeFiles/get_screen_size.dir/build.make CMakeFiles/get_screen_size.dir/get_screen_size.cpp.i
-.PHONY : get_screen_size.cpp.i
+app1.cpp.i:
+	$(MAKE) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/app1.cpp.i
+.PHONY : app1.cpp.i
 
-get_screen_size.s: get_screen_size.cpp.s
+app1.s: app1.cpp.s
 
-.PHONY : get_screen_size.s
-
-# target to generate assembly for a file
-get_screen_size.cpp.s:
-	$(MAKE) -f CMakeFiles/get_screen_size.dir/build.make CMakeFiles/get_screen_size.dir/get_screen_size.cpp.s
-.PHONY : get_screen_size.cpp.s
-
-partial_sh.o: partial_sh.cpp.o
-
-.PHONY : partial_sh.o
-
-# target to build an object file
-partial_sh.cpp.o:
-	$(MAKE) -f CMakeFiles/partial_sh.dir/build.make CMakeFiles/partial_sh.dir/partial_sh.cpp.o
-.PHONY : partial_sh.cpp.o
-
-partial_sh.i: partial_sh.cpp.i
-
-.PHONY : partial_sh.i
-
-# target to preprocess a source file
-partial_sh.cpp.i:
-	$(MAKE) -f CMakeFiles/partial_sh.dir/build.make CMakeFiles/partial_sh.dir/partial_sh.cpp.i
-.PHONY : partial_sh.cpp.i
-
-partial_sh.s: partial_sh.cpp.s
-
-.PHONY : partial_sh.s
+.PHONY : app1.s
 
 # target to generate assembly for a file
-partial_sh.cpp.s:
-	$(MAKE) -f CMakeFiles/partial_sh.dir/build.make CMakeFiles/partial_sh.dir/partial_sh.cpp.s
-.PHONY : partial_sh.cpp.s
-
-screen_shot.o: screen_shot.cpp.o
-
-.PHONY : screen_shot.o
-
-# target to build an object file
-screen_shot.cpp.o:
-	$(MAKE) -f CMakeFiles/screen_shot.dir/build.make CMakeFiles/screen_shot.dir/screen_shot.cpp.o
-.PHONY : screen_shot.cpp.o
-
-screen_shot.i: screen_shot.cpp.i
-
-.PHONY : screen_shot.i
-
-# target to preprocess a source file
-screen_shot.cpp.i:
-	$(MAKE) -f CMakeFiles/screen_shot.dir/build.make CMakeFiles/screen_shot.dir/screen_shot.cpp.i
-.PHONY : screen_shot.cpp.i
-
-screen_shot.s: screen_shot.cpp.s
-
-.PHONY : screen_shot.s
-
-# target to generate assembly for a file
-screen_shot.cpp.s:
-	$(MAKE) -f CMakeFiles/screen_shot.dir/build.make CMakeFiles/screen_shot.dir/screen_shot.cpp.s
-.PHONY : screen_shot.cpp.s
+app1.cpp.s:
+	$(MAKE) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/app1.cpp.s
+.PHONY : app1.cpp.s
 
 # Help Target
 help:
@@ -277,23 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... app1"
 	@echo "... edit_cache"
-	@echo "... croped_translate"
-	@echo "... partial_sh"
-	@echo "... screen_shot"
-	@echo "... get_screen_size"
-	@echo "... croped_translate.o"
-	@echo "... croped_translate.i"
-	@echo "... croped_translate.s"
-	@echo "... get_screen_size.o"
-	@echo "... get_screen_size.i"
-	@echo "... get_screen_size.s"
-	@echo "... partial_sh.o"
-	@echo "... partial_sh.i"
-	@echo "... partial_sh.s"
-	@echo "... screen_shot.o"
-	@echo "... screen_shot.i"
-	@echo "... screen_shot.s"
+	@echo "... app1.o"
+	@echo "... app1.i"
+	@echo "... app1.s"
 .PHONY : help
 
 

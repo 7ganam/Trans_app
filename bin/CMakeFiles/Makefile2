@@ -60,150 +60,39 @@ CMAKE_SOURCE_DIR = /home/ganam/Desktop/translat_git_app
 CMAKE_BINARY_DIR = /home/ganam/Desktop/translat_git_app/bin
 
 #=============================================================================
-# Target rules for target CMakeFiles/croped_translate.dir
+# Target rules for target CMakeFiles/app1.dir
 
 # All Build rule for target.
-CMakeFiles/croped_translate.dir/all:
-	$(MAKE) -f CMakeFiles/croped_translate.dir/build.make CMakeFiles/croped_translate.dir/depend
-	$(MAKE) -f CMakeFiles/croped_translate.dir/build.make CMakeFiles/croped_translate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ganam/Desktop/translat_git_app/bin/CMakeFiles --progress-num=1,2 "Built target croped_translate"
-.PHONY : CMakeFiles/croped_translate.dir/all
+CMakeFiles/app1.dir/all:
+	$(MAKE) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/depend
+	$(MAKE) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ganam/Desktop/translat_git_app/bin/CMakeFiles --progress-num=1,2 "Built target app1"
+.PHONY : CMakeFiles/app1.dir/all
 
 # Include target in all.
-all: CMakeFiles/croped_translate.dir/all
+all: CMakeFiles/app1.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/croped_translate.dir/rule: cmake_check_build_system
+CMakeFiles/app1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ganam/Desktop/translat_git_app/bin/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/croped_translate.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/app1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ganam/Desktop/translat_git_app/bin/CMakeFiles 0
-.PHONY : CMakeFiles/croped_translate.dir/rule
+.PHONY : CMakeFiles/app1.dir/rule
 
 # Convenience name for target.
-croped_translate: CMakeFiles/croped_translate.dir/rule
+app1: CMakeFiles/app1.dir/rule
 
-.PHONY : croped_translate
-
-# clean rule for target.
-CMakeFiles/croped_translate.dir/clean:
-	$(MAKE) -f CMakeFiles/croped_translate.dir/build.make CMakeFiles/croped_translate.dir/clean
-.PHONY : CMakeFiles/croped_translate.dir/clean
+.PHONY : app1
 
 # clean rule for target.
-clean: CMakeFiles/croped_translate.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/partial_sh.dir
-
-# All Build rule for target.
-CMakeFiles/partial_sh.dir/all:
-	$(MAKE) -f CMakeFiles/partial_sh.dir/build.make CMakeFiles/partial_sh.dir/depend
-	$(MAKE) -f CMakeFiles/partial_sh.dir/build.make CMakeFiles/partial_sh.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ganam/Desktop/translat_git_app/bin/CMakeFiles --progress-num=5,6 "Built target partial_sh"
-.PHONY : CMakeFiles/partial_sh.dir/all
-
-# Include target in all.
-all: CMakeFiles/partial_sh.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/partial_sh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ganam/Desktop/translat_git_app/bin/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/partial_sh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ganam/Desktop/translat_git_app/bin/CMakeFiles 0
-.PHONY : CMakeFiles/partial_sh.dir/rule
-
-# Convenience name for target.
-partial_sh: CMakeFiles/partial_sh.dir/rule
-
-.PHONY : partial_sh
+CMakeFiles/app1.dir/clean:
+	$(MAKE) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/clean
+.PHONY : CMakeFiles/app1.dir/clean
 
 # clean rule for target.
-CMakeFiles/partial_sh.dir/clean:
-	$(MAKE) -f CMakeFiles/partial_sh.dir/build.make CMakeFiles/partial_sh.dir/clean
-.PHONY : CMakeFiles/partial_sh.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/partial_sh.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/screen_shot.dir
-
-# All Build rule for target.
-CMakeFiles/screen_shot.dir/all:
-	$(MAKE) -f CMakeFiles/screen_shot.dir/build.make CMakeFiles/screen_shot.dir/depend
-	$(MAKE) -f CMakeFiles/screen_shot.dir/build.make CMakeFiles/screen_shot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ganam/Desktop/translat_git_app/bin/CMakeFiles --progress-num=7,8 "Built target screen_shot"
-.PHONY : CMakeFiles/screen_shot.dir/all
-
-# Include target in all.
-all: CMakeFiles/screen_shot.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/screen_shot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ganam/Desktop/translat_git_app/bin/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/screen_shot.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ganam/Desktop/translat_git_app/bin/CMakeFiles 0
-.PHONY : CMakeFiles/screen_shot.dir/rule
-
-# Convenience name for target.
-screen_shot: CMakeFiles/screen_shot.dir/rule
-
-.PHONY : screen_shot
-
-# clean rule for target.
-CMakeFiles/screen_shot.dir/clean:
-	$(MAKE) -f CMakeFiles/screen_shot.dir/build.make CMakeFiles/screen_shot.dir/clean
-.PHONY : CMakeFiles/screen_shot.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/screen_shot.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/get_screen_size.dir
-
-# All Build rule for target.
-CMakeFiles/get_screen_size.dir/all:
-	$(MAKE) -f CMakeFiles/get_screen_size.dir/build.make CMakeFiles/get_screen_size.dir/depend
-	$(MAKE) -f CMakeFiles/get_screen_size.dir/build.make CMakeFiles/get_screen_size.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ganam/Desktop/translat_git_app/bin/CMakeFiles --progress-num=3,4 "Built target get_screen_size"
-.PHONY : CMakeFiles/get_screen_size.dir/all
-
-# Include target in all.
-all: CMakeFiles/get_screen_size.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/get_screen_size.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ganam/Desktop/translat_git_app/bin/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/get_screen_size.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ganam/Desktop/translat_git_app/bin/CMakeFiles 0
-.PHONY : CMakeFiles/get_screen_size.dir/rule
-
-# Convenience name for target.
-get_screen_size: CMakeFiles/get_screen_size.dir/rule
-
-.PHONY : get_screen_size
-
-# clean rule for target.
-CMakeFiles/get_screen_size.dir/clean:
-	$(MAKE) -f CMakeFiles/get_screen_size.dir/build.make CMakeFiles/get_screen_size.dir/clean
-.PHONY : CMakeFiles/get_screen_size.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/get_screen_size.dir/clean
+clean: CMakeFiles/app1.dir/clean
 
 .PHONY : clean
 

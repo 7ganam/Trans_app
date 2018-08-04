@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/get_screen_size.dir/get_screen_size.cpp.o  -o get_screen_size -lSM -lICE -lX11 -lXext 

@@ -1,6 +1,3 @@
 /home/ganam/Desktop/translat_git_app/bin/CMakeFiles/rebuild_cache.dir
+/home/ganam/Desktop/translat_git_app/bin/CMakeFiles/app1.dir
 /home/ganam/Desktop/translat_git_app/bin/CMakeFiles/edit_cache.dir
-/home/ganam/Desktop/translat_git_app/bin/CMakeFiles/croped_translate.dir
-/home/ganam/Desktop/translat_git_app/bin/CMakeFiles/partial_sh.dir
-/home/ganam/Desktop/translat_git_app/bin/CMakeFiles/screen_shot.dir
-/home/ganam/Desktop/translat_git_app/bin/CMakeFiles/get_screen_size.dir

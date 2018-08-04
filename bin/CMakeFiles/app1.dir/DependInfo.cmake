@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ganam/Desktop/translat_git_app/screen_shot.cpp" "/home/ganam/Desktop/translat_git_app/bin/CMakeFiles/screen_shot.dir/screen_shot.cpp.o"
+  "/home/ganam/Desktop/translat_git_app/app1.cpp" "/home/ganam/Desktop/translat_git_app/bin/CMakeFiles/app1.dir/app1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
