@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named app1
+
+# Build rule for target.
+app1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 app1
+.PHONY : app1
+
+# fast build rule for target.
+app1/fast:
+	$(MAKE) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/build
+.PHONY : app1/fast
+
+#=============================================================================
 # Target rules for targets named cropped_test
 
 # Build rule for target.
@@ -122,6 +135,33 @@ cropped_test: cmake_check_build_system
 cropped_test/fast:
 	$(MAKE) -f CMakeFiles/cropped_test.dir/build.make CMakeFiles/cropped_test.dir/build
 .PHONY : cropped_test/fast
+
+app1.o: app1.cpp.o
+
+.PHONY : app1.o
+
+# target to build an object file
+app1.cpp.o:
+	$(MAKE) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/app1.cpp.o
+.PHONY : app1.cpp.o
+
+app1.i: app1.cpp.i
+
+.PHONY : app1.i
+
+# target to preprocess a source file
+app1.cpp.i:
+	$(MAKE) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/app1.cpp.i
+.PHONY : app1.cpp.i
+
+app1.s: app1.cpp.s
+
+.PHONY : app1.s
+
+# target to generate assembly for a file
+app1.cpp.s:
+	$(MAKE) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/app1.cpp.s
+.PHONY : app1.cpp.s
 
 cropped_test.o: cropped_test.cpp.o
 
@@ -157,8 +197,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... cropped_test"
 	@echo "... edit_cache"
+	@echo "... app1"
+	@echo "... cropped_test"
+	@echo "... app1.o"
+	@echo "... app1.i"
+	@echo "... app1.s"
 	@echo "... cropped_test.o"
 	@echo "... cropped_test.i"
 	@echo "... cropped_test.s"

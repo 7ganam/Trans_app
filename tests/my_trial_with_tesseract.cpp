@@ -22,14 +22,7 @@ int main(int argc, char* argv[])
  
 // Create Tesseract object
     //tesseract::TessBaseAPI *ocr = new tesseract::TessBaseAPI();
-      Ptr<OCRTesseract> ocr = OCRTesseract::create();
-// Initialize tesseract to use English (eng) and the LSTM OCR engine. 
-    //ocr->Init(NULL, "eng", tesseract::OEM_LSTM_ONLY);
- 
-// Set Page segmentation mode to PSM_AUTO (3)
-    //ocr->SetPageSegMode(tesseract::PSM_AUTO);
- 
-// Open input image using OpenCV
+    Ptr<OCRTesseract> ocr = OCRTesseract::create();
     Mat im = cv::imread(imPath, IMREAD_COLOR);
    
 // Set image data

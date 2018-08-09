@@ -29,7 +29,7 @@ void get_pointer(int& root_x, int& root_y)
 
     
         result = XQueryPointer(display, *root_windows, &window_returned,  &window_returned, &root_x, &root_y, &win_x, &win_y,  &mask_return);
-        printf("Mouse is at (%d,%d)\n", root_x, root_y);
+        //printf("Mouse is at (%d,%d)\n", root_x, root_y);
 
     
     free(root_windows);

@@ -60,13 +60,50 @@ CMAKE_SOURCE_DIR = /home/ganam/Desktop/translat_git_app/tests
 CMAKE_BINARY_DIR = /home/ganam/Desktop/translat_git_app/tests/bin
 
 #=============================================================================
+# Target rules for target CMakeFiles/app1.dir
+
+# All Build rule for target.
+CMakeFiles/app1.dir/all:
+	$(MAKE) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/depend
+	$(MAKE) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ganam/Desktop/translat_git_app/tests/bin/CMakeFiles --progress-num=1,2 "Built target app1"
+.PHONY : CMakeFiles/app1.dir/all
+
+# Include target in all.
+all: CMakeFiles/app1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/app1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ganam/Desktop/translat_git_app/tests/bin/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/app1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ganam/Desktop/translat_git_app/tests/bin/CMakeFiles 0
+.PHONY : CMakeFiles/app1.dir/rule
+
+# Convenience name for target.
+app1: CMakeFiles/app1.dir/rule
+
+.PHONY : app1
+
+# clean rule for target.
+CMakeFiles/app1.dir/clean:
+	$(MAKE) -f CMakeFiles/app1.dir/build.make CMakeFiles/app1.dir/clean
+.PHONY : CMakeFiles/app1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/app1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/cropped_test.dir
 
 # All Build rule for target.
 CMakeFiles/cropped_test.dir/all:
 	$(MAKE) -f CMakeFiles/cropped_test.dir/build.make CMakeFiles/cropped_test.dir/depend
 	$(MAKE) -f CMakeFiles/cropped_test.dir/build.make CMakeFiles/cropped_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ganam/Desktop/translat_git_app/tests/bin/CMakeFiles --progress-num=1,2 "Built target cropped_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ganam/Desktop/translat_git_app/tests/bin/CMakeFiles --progress-num=3,4 "Built target cropped_test"
 .PHONY : CMakeFiles/cropped_test.dir/all
 
 # Include target in all.

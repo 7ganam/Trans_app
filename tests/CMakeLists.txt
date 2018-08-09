@@ -13,6 +13,7 @@ link_libraries(${X11_LIBRARIES})
 include_directories(${X11_INCLUDE_DIR})
 
 
+add_executable(app1 app1.cpp)
 add_executable(cropped_test cropped_test.cpp)
 
 
@@ -28,5 +29,5 @@ include_directories("${PROJECT_SOURCE_DIR}")
 
 find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
+target_link_libraries( app1 ${OpenCV_LIBS} ) 
 target_link_libraries( cropped_test ${OpenCV_LIBS} ) 
-

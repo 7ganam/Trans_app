@@ -1,4 +1,3 @@
-#include <X11/Xlib.h>
 #include <X11/Xutil.h>
 #include <cstdint>
 #include <cstring>
@@ -16,6 +15,12 @@
 #include "opencv2/text.hpp"
 #include <iostream>
 #include "get_pointer.h"
+#include  "tinyxml.h"
+#include  "tinystr.h"
+#include  <iostream>
+#include  <string>
+#include  "trans_xml.h"
+#include  <typeinfo>
 
 using namespace cv;
 using namespace std;
@@ -87,7 +92,7 @@ int main()
     
  //first set the pointer pixel position to root_x , root_y
    int root_x, root_y;
-   get_pointer(root_x, root_y)    ; 
+   get_pointer(root_x, root_y) ; 
    
  
 // preparing the cropping rectangle    
@@ -102,7 +107,7 @@ int main()
    int ccenter_x=min_dx; //this is the center of the cropped image ..it's the postion of the cursor
    int ccetner_y=min_dy;
    
-   cv::Point2i p;
+   cv::Point2i p; 
    p.x=min_dx;
    p.y=min_dy;
    
@@ -113,42 +118,84 @@ int main()
     cv::Rect myROI(x1,y1,cwidth,cheight);
    
 // taking  the screenshot and applying the croping rectangle   
-    int w,h,d;
-    int Width = 0;
-    int Height = 0;
-    int Bpp = 0;
-    std::vector<std::uint8_t> Pixels;
-
-    ImageFromDisplay(Pixels, Width, Height, Bpp);
-
-    if (Width && Height)
+    while(1)
     {
-        Mat img = Mat(Height, Width, Bpp > 24 ? CV_8UC4 : CV_8UC3, &Pixels[0]); //Mat(Size(Height, Width), Bpp > 24 ? CV_8UC4 : CV_8UC3, &Pixels[0]); 
-    
-    //apply crope
-        cv::Mat croppedImage = crop( myROI, img  );
-        
-        cvtColor(croppedImage,croppedImage,COLOR_RGB2GRAY);
+        int Width = 0;
+        int Height = 0;
+        int Bpp = 0;
+        std::vector<std::uint8_t> Pixels;
+        ImageFromDisplay(Pixels, Width, Height, Bpp);
 
-        
-    // creatin ocr object and applying text detection
-       Ptr<OCRTesseract> ocr = OCRTesseract::create();
-        vector<Rect> boxes;
-        vector<string> words;
-        vector<float> confidences;
-        string output;
-        ocr->run( croppedImage, output, &boxes, &words, &confidences, OCR_LEVEL_WORD);
-        for (int j=0; j<(int)boxes.size(); j++)
+        if (Width && Height)
         {
-           if(boxes[j].contains( p ))
-           {
-                cv::rectangle(croppedImage, boxes[j], cv::Scalar(255, 255, 0));
-                cout << "  word = " << words[j] << "\t confidence = " << confidences[j] << endl;
-           }
+            Mat img = Mat(Height, Width, Bpp > 24 ? CV_8UC4 : CV_8UC3, &Pixels[0]); //Mat(Size(Height, Width), Bpp > 24 ? CV_8UC4 : CV_8UC3, &Pixels[0]); 
+        
+        //apply crope
+            cv::Mat croppedImage = crop( myROI, img  );
+            
+            cvtColor(croppedImage,croppedImage,COLOR_RGB2GRAY);
+
+            
+        // creatin ocr object and applying text detection
+        Ptr<OCRTesseract> ocr = OCRTesseract::create();
+            vector<Rect> boxes;
+            vector<string> words;
+            vector<float> confidences;
+            string output;
+            ocr->run( croppedImage, output, &boxes, &words, &confidences, OCR_LEVEL_WORD);
+            for (int j=0; j<(int)boxes.size(); j++)
+            {
+            if(boxes[j].contains( p ))
+            {
+                    cv::rectangle(croppedImage, boxes[j], cv::Scalar(255, 255, 0));
+                    cout << "  word = " << words[j] << "\t confidence = " << confidences[j] << endl;
+                    
+                    
+                    //start of parsing xml to find translation-------------------------------------------------------------------------------------
+                    //preparation for calling   Translate_xml(return_str , input ,  doc , root) -------------------
+    
+                                        std::string  return_str;
+                                        const char   *Dict_file_name = "eng-ara.xml";
+                                        std::string  input=words[j];
+                                        TiXmlDocument doc;
+                                        TiXmlElement* root;
+                                        //opening file
+                                        if(!doc.LoadFile(Dict_file_name))
+                                        {  
+                                            cerr << doc.ErrorDesc() << endl;  
+                                            cout<<"failed to open file"<<endl;
+                                            return 0; 
+                                        }
+                                        root = doc.FirstChildElement();
+                                        if(root == NULL)
+                                        {
+                                            cerr << "Failed to load file: No root element." << endl;
+                                            doc.Clear();
+                                            return 0; 
+                                        }
+                //---------------------------------------------------------------------------------------------
+                                        if( Translate_xml(return_str , input ,  doc , root) )
+                                            cout << "Got text: " << return_str << endl;           
+                                        else
+                                            cout << "notfound"<<endl;
+                                    
+    
+                    
+                    
+                    
+                    
+                    
+                    
+            }
+            }
+//             imshow("Display window", croppedImage);
+    //          
+    
+    
+    
+            waitKey(0);
+            sleep(1);
         }
-        imshow("Display window", croppedImage);
-//          
-        waitKey(0);
     }
     return 0;
 }

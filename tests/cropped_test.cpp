@@ -57,21 +57,21 @@ cv::Mat crop( cv::Rect& ROI, cv::Mat& img  )
     //creat a new cropping rectangle (region of interest) with the interesection of the two recatagles
     cv::Rect new_ROI = ROI & screen_wide_rect;
 
-// //screen shot and display for debuggig   (uncomment this if you want to visualize)
-//     int Width = 0;
-//     int Height = 0;
-//     int Bpp = 0;
-//     std::vector<std::uint8_t> Pixels;  
-//         ImageFromDisplay(Pixels, Width, Height, Bpp);
-//         if (Width && Height)
-//         {
-//             Mat img = Mat(Height, Width, Bpp > 24 ? CV_8UC4 : CV_8UC3, &Pixels[0]); //Mat(Size(Height, Width), Bpp > 24 ? CV_8UC4 : CV_8UC3, &Pixels[0]); 
-//             cv::rectangle(img,ROI, cv::Scalar(0, 255, 0));
-//             cv::rectangle(img,screen_wide_rect, cv::Scalar(0, 0, 255));
-//             imshow("Display window", img);   
-// 
-//             waitKey(0);
-//         }
+//screen shot and display for debuggig   (uncomment this if you want to visualize)
+    int Width = 0;
+    int Height = 0;
+    int Bpp = 0;
+    std::vector<std::uint8_t> Pixels;  
+        ImageFromDisplay(Pixels, Width, Height, Bpp);
+        if (Width && Height)
+        {
+            Mat img = Mat(Height, Width, Bpp > 24 ? CV_8UC4 : CV_8UC3, &Pixels[0]); //Mat(Size(Height, Width), Bpp > 24 ? CV_8UC4 : CV_8UC3, &Pixels[0]); 
+            cv::rectangle(img,ROI, cv::Scalar(0, 255, 0));
+            cv::rectangle(img,screen_wide_rect, cv::Scalar(0, 0, 255));
+            imshow("Display window", img);   
+
+            waitKey(0);
+        }
     
     
     cv::Mat croppedImage = img(new_ROI);

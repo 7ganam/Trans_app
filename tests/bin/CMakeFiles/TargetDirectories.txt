@@ -1,3 +1,4 @@
 /home/ganam/Desktop/translat_git_app/tests/bin/CMakeFiles/rebuild_cache.dir
-/home/ganam/Desktop/translat_git_app/tests/bin/CMakeFiles/cropped_test.dir
 /home/ganam/Desktop/translat_git_app/tests/bin/CMakeFiles/edit_cache.dir
+/home/ganam/Desktop/translat_git_app/tests/bin/CMakeFiles/app1.dir
+/home/ganam/Desktop/translat_git_app/tests/bin/CMakeFiles/cropped_test.dir
