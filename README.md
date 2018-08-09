@@ -5,6 +5,10 @@ tasks:
 - [x] 2. get screenshot from x server.
 - [x] 3. get screenshot of only the word under the cursor using openCV.
 - [x] 4. use OCR on the word.
-- [x] 5. solve the border problem.
+- [ ] 5. solve the left border problem.
 - [ ] 6. parse the word to delete any "_" or ":" chars.
-- [ ] 7. apply translation.
+- [x] 7. apply translation.
+- [ ] 8. apply a better search algorith on the xml instead of the brute force shit
+- [ ] 9. search for other online xml file for eng-eng dictionary
+- [ ] 10. solve the problrm of missing nodes in the xml files from freedict.
+- [ ] 11. the GUI

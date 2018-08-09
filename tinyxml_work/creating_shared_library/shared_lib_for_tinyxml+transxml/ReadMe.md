@@ -6,7 +6,7 @@ g++ ../src/*.cpp  -I../include -c -fPIC
 to creat the object files 
 
 then run
-gcc -shared *.o -o libshared_trans.so
+g++-shared *.o -o libshared_trans.so
 
 the library would created in the bin folder
 
