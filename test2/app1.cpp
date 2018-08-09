@@ -1,40 +1,41 @@
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
-#include <cstdint>
-#include <cstring>
-#include <vector>
 #include <X11/Xlib.h>
-#include <stdio.h>
+
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
-#include <math.h>
-#include <assert.h>
-#include <unistd.h>
-#include <malloc.h>
-#include <vector>
-#include "opencv2/text.hpp"
-#include <iostream>
-#include "get_pointer.h"
 
-#include  "tinyxml.h"
-#include  "tinystr.h"
+#include <cstdint>
+#include <cstring>
+#include <vector>
+#include <stdio.h>
+
+#include  <math.h>
+#include  <assert.h>
+#include  <unistd.h>
+#include  <malloc.h>
+#include  <vector>
+#include  <iostream>
 #include  <iostream>
 #include  <string>
-#include  "trans_xml.h"
-#include  <typeinfo>
+#include  <stdio.h>
+#include  <stdlib.h>
+#include  <fcntl.h>
+#include  <unistd.h>
 
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <fcntl.h>
-#include <unistd.h>
+#include "opencv2/text.hpp"
+#include  "tinyxml.h"
+#include  "tinystr.h"
+#include  "Translate_xml.h"
+#include "get_pointer.h"
 
 using namespace cv;
 using namespace std;
 using namespace cv::text;
 
 
+// g++ app1.cpp -lX11 `pkg-config --cflags --libs opencv` -ltinyxml -L. -Wl,-rpath=.
 
 void ImageFromDisplay(std::vector<uint8_t>& Pixels, int& Width, int& Height, int& BitsPerPixel)
 {
@@ -176,7 +177,7 @@ int main()
                                  //preparation for calling   Translate_xml(return_str , input ,  doc , root) -------------------
                                         std::string input=words[j];
                                         std::string  return_str;
-                                        const char   *Dict_file_name = "eng-nld.xml";
+                                        const char   *Dict_file_name = "eng-ara.xml";
                                         TiXmlDocument doc;
                                         TiXmlElement* root;
                                         //opening file
@@ -200,11 +201,7 @@ int main()
                                     if( Translate_xml(return_str , input ,  doc , root) )
                                     {
                                         cout << "Got text: " << return_str << endl;    
-                                    cout << "Got text: " << return_str << endl;  
-                                    cout << "Got text: " << return_str << endl;  
-                                    cout << "Got text: " << return_str << endl;  
-                                    cout << "Got text: " << return_str << endl;  
-                                    cout << "Got text: " << return_str << endl;  
+                                
                                     }
 //                                     else
 //                                         cout << "notfoun"<<endl;
