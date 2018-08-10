@@ -28,7 +28,10 @@
 #include  "tinyxml.h"
 #include  "tinystr.h"
 #include  "Translate_xml.h"
-#include "get_pointer.h"
+#include  "get_pointer.h"
+
+#include <chrono>
+#include <thread>
 
 using namespace cv;
 using namespace std;
@@ -93,7 +96,10 @@ cv::Mat crop( cv::Rect& ROI, cv::Mat& img  )
 }
 
 
-
+std::string answer_buffer;
+std::string detected_text;
+std::string detected_text_buffer;
+unsigned int sleep_microseconds=500;
 
 int main()
 {
@@ -113,7 +119,10 @@ int main()
     
    while(1)
     {  
+//         usleep(sleep_microseconds);
 //         sleep(1);
+        std::this_thread::sleep_for(std::chrono::milliseconds(sleep_microseconds));
+
     //first set the pointer pixel position to root_x , root_y
     int root_x, root_y;
     get_pointer(root_x, root_y) ; 
@@ -170,10 +179,15 @@ int main()
             {
                 if(boxes[j].contains( p ))
                 {
-                    cout<<"intered box"<<endl;
+                    //cout<<"intered box"<<endl;
                         cv::rectangle(croppedImage, boxes[j], cv::Scalar(255, 255, 0));
-                        cout << "  word = " << words[j] << "\t confidence = " << confidences[j] << endl;
-                        
+                        //cout << "  word = " << words[j] << "\t confidence = " << confidences[j] << endl;
+                                detected_text=words[j];
+                                if(  !iequals(detected_text, detected_text_buffer)  ) 
+                                {
+                                        detected_text_buffer=detected_text;
+;                                       cout << "  detected word: " << words[j] << endl;
+
                                  //preparation for calling   Translate_xml(return_str , input ,  doc , root) -------------------
                                         std::string input=words[j];
                                         std::string  return_str;
@@ -195,17 +209,20 @@ int main()
                                             return 0; 
                                         }
                                 //---------------------------------------------------------------------------------------------
-                                
-                               
+                                    
+                                    
       
-                                    if( Translate_xml(return_str , input ,  doc , root) )
-                                    {
-                                        cout << "Got text: " << return_str << endl;    
-                                
-                                    }
-//                                     else
-//                                         cout << "notfoun"<<endl;
-                            
+                                        if( Translate_xml(return_str , detected_text ,  doc , root) )
+                                        {  
+                                                    answer_buffer=return_str;                                                
+                                                    cout << "  translation  : " << answer_buffer<< endl;                                            
+                                            }
+                                            else
+                                            {
+                                                cout << "  translation  : " << "Not Found"<< endl;  
+                                        }
+
+                               }
                         
                         
                 
