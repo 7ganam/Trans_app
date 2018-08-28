@@ -1,0 +1,8 @@
+/home/ganam/Desktop/translat_git_app/test3/Build/CMakeFiles/rebuild_cache.dir
+/home/ganam/Desktop/translat_git_app/test3/Build/CMakeFiles/app1.dir
+/home/ganam/Desktop/translat_git_app/test3/Build/CMakeFiles/edit_cache.dir
+/home/ganam/Desktop/translat_git_app/test3/Build/tinyxml_library/CMakeFiles/rebuild_cache.dir
+/home/ganam/Desktop/translat_git_app/test3/Build/tinyxml_library/CMakeFiles/edit_cache.dir
+/home/ganam/Desktop/translat_git_app/test3/Build/get_pointer_library/CMakeFiles/rebuild_cache.dir
+/home/ganam/Desktop/translat_git_app/test3/Build/get_pointer_library/CMakeFiles/GET_POINTER.dir
+/home/ganam/Desktop/translat_git_app/test3/Build/get_pointer_library/CMakeFiles/edit_cache.dir
