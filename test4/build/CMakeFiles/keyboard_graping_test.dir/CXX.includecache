@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ganam/Desktop/translat_git_app/test4/keyboard_graping_test.cpp
+iostream
+-
+X11/Xlib.h
+-
+X11/Xutil.h
+-
+

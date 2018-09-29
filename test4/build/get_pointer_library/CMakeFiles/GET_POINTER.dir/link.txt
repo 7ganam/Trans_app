@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../bin/libGET_POINTER.a  CMakeFiles/GET_POINTER.dir/get_pointer.cpp.o
+/usr/bin/ranlib ../../bin/libGET_POINTER.a

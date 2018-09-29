@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/ganam/Desktop/translat_git_app/test4/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/ganam/Desktop/translat_git_app/test4 -I/home/ganam/Desktop/translat_git_app/test4/tinyxml_library -I/home/ganam/Desktop/translat_git_app/test4/get_pointer_library -isystem /usr/local/include -isystem /usr/local/include/opencv  -g   -std=gnu++11 -o CMakeFiles/get_pointer.dir/get_pointer.cpp.o -c /home/ganam/Desktop/translat_git_app/test4/get_pointer.cpp",
+  "file": "/home/ganam/Desktop/translat_git_app/test4/get_pointer.cpp"
+},
+{
+  "directory": "/home/ganam/Desktop/translat_git_app/test4/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/ganam/Desktop/translat_git_app/test4 -I/home/ganam/Desktop/translat_git_app/test4/tinyxml_library -I/home/ganam/Desktop/translat_git_app/test4/get_pointer_library -isystem /usr/local/include -isystem /usr/local/include/opencv  -g   -std=gnu++11 -o CMakeFiles/app1.dir/app1.cpp.o -c /home/ganam/Desktop/translat_git_app/test4/app1.cpp",
+  "file": "/home/ganam/Desktop/translat_git_app/test4/app1.cpp"
+},
+{
+  "directory": "/home/ganam/Desktop/translat_git_app/test4/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/ganam/Desktop/translat_git_app/test4 -I/home/ganam/Desktop/translat_git_app/test4/tinyxml_library -I/home/ganam/Desktop/translat_git_app/test4/get_pointer_library -isystem /usr/local/include -isystem /usr/local/include/opencv  -g   -std=gnu++11 -o CMakeFiles/mouse_click_event_test.dir/mouse_click_event_test.cpp.o -c /home/ganam/Desktop/translat_git_app/test4/mouse_click_event_test.cpp",
+  "file": "/home/ganam/Desktop/translat_git_app/test4/mouse_click_event_test.cpp"
+},
+{
+  "directory": "/home/ganam/Desktop/translat_git_app/test4/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/ganam/Desktop/translat_git_app/test4 -I/home/ganam/Desktop/translat_git_app/test4/tinyxml_library -I/home/ganam/Desktop/translat_git_app/test4/get_pointer_library -isystem /usr/local/include -isystem /usr/local/include/opencv  -g   -std=gnu++11 -o CMakeFiles/keyboard_graping_test.dir/keyboard_graping_test.cpp.o -c /home/ganam/Desktop/translat_git_app/test4/keyboard_graping_test.cpp",
+  "file": "/home/ganam/Desktop/translat_git_app/test4/keyboard_graping_test.cpp"
+},
+{
+  "directory": "/home/ganam/Desktop/translat_git_app/test4/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/ganam/Desktop/translat_git_app/test4 -I/home/ganam/Desktop/translat_git_app/test4/tinyxml_library -I/home/ganam/Desktop/translat_git_app/test4/get_pointer_library -isystem /usr/local/include -isystem /usr/local/include/opencv  -g   -std=gnu++11 -o CMakeFiles/app2.dir/app2.cpp.o -c /home/ganam/Desktop/translat_git_app/test4/app2.cpp",
+  "file": "/home/ganam/Desktop/translat_git_app/test4/app2.cpp"
+},
+{
+  "directory": "/home/ganam/Desktop/translat_git_app/test4/build/get_pointer_library",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/ganam/Desktop/translat_git_app/test4 -I/home/ganam/Desktop/translat_git_app/test4/tinyxml_library -I/home/ganam/Desktop/translat_git_app/test4/get_pointer_library  -g   -std=gnu++11 -o CMakeFiles/GET_POINTER.dir/get_pointer.cpp.o -c /home/ganam/Desktop/translat_git_app/test4/get_pointer_library/get_pointer.cpp",
+  "file": "/home/ganam/Desktop/translat_git_app/test4/get_pointer_library/get_pointer.cpp"
+}
+]

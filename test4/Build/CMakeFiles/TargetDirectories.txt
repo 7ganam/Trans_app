@@ -1,0 +1,12 @@
+/home/ganam/Desktop/translat_git_app/test4/Build/CMakeFiles/get_pointer.dir
+/home/ganam/Desktop/translat_git_app/test4/Build/CMakeFiles/app1.dir
+/home/ganam/Desktop/translat_git_app/test4/Build/CMakeFiles/mouse_click_event_test.dir
+/home/ganam/Desktop/translat_git_app/test4/Build/CMakeFiles/rebuild_cache.dir
+/home/ganam/Desktop/translat_git_app/test4/Build/CMakeFiles/keyboard_graping_test.dir
+/home/ganam/Desktop/translat_git_app/test4/Build/CMakeFiles/app2.dir
+/home/ganam/Desktop/translat_git_app/test4/Build/CMakeFiles/edit_cache.dir
+/home/ganam/Desktop/translat_git_app/test4/Build/tinyxml_library/CMakeFiles/rebuild_cache.dir
+/home/ganam/Desktop/translat_git_app/test4/Build/tinyxml_library/CMakeFiles/edit_cache.dir
+/home/ganam/Desktop/translat_git_app/test4/Build/get_pointer_library/CMakeFiles/rebuild_cache.dir
+/home/ganam/Desktop/translat_git_app/test4/Build/get_pointer_library/CMakeFiles/GET_POINTER.dir
+/home/ganam/Desktop/translat_git_app/test4/Build/get_pointer_library/CMakeFiles/edit_cache.dir

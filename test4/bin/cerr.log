@@ -1,0 +1,319 @@
+Failed to open file
+Detected 8 diacritics
+Detected 8 diacritics
+Detected 11 diacritics
+Detected 11 diacritics
+Detected 11 diacritics
+Warning:guessing pitch as xheight on row 1, block 2
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Failed to open file
+Detected 6 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 5 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Empty page!!
+Empty page!!
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 23 diacritics
+Warning:guessing pitch as xheight on row 1, block 2
+Detected 23 diacritics
+Detected 16 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Warning:guessing pitch as xheight on row 2, block 1
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Warning:guessing pitch as xheight on row 2, block 1
+Detected 13 diacritics
+Detected 17 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 2 diacritics
+Empty page!!
+Empty page!!
+Detected 15 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+terminate called after throwing an instance of 'cv::Exception'
+  what():  OpenCV(4.0.0-pre) /home/ganam/opencv-master/modules/highgui/src/window.cpp:356: error: (-215:Assertion failed) size.width>0 && size.height>0 in function 'imshow'
+
+Detected 13 diacritics
+Detected 6 diacritics
+Detected 6 diacritics
+Detected 6 diacritics
+Detected 6 diacritics
+Detected 6 diacritics
+Empty page!!
+Empty page!!
+Detected 11 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 16 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 9 diacritics
+Detected 4 diacritics
+Detected 4 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 3 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Warning:guessing pitch as xheight on row 1, block 2
+Detected 16 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 11 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 13 diacritics
+Detected 13 diacritics
+Detected 17 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Detected 15 diacritics
+Empty page!!
+Empty page!!
+Empty page!!
+Empty page!!
+Detected 1 diacritics
+Empty page!!
+Empty page!!
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 16 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 9 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 11 diacritics
+Detected 10 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Warning:guessing pitch as xheight on row 1, block 2
+Detected 7 diacritics
+Detected 4 diacritics
+Detected 4 diacritics
+Detected 8 diacritics
+Detected 34 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Empty page!!
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Empty page!!
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Empty page!!
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Empty page!!
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Empty page!!
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Empty page!!
+Detected 10 diacritics
+Detected 14 diacritics
+Detected 12 diacritics
+Detected 35 diacritics
+Detected 2 diacritics
+Detected 10 diacritics
+Detected 3 diacritics
+Detected 3 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 3 diacritics
+Detected 4 diacritics
+Detected 16 diacritics
+Detected 6 diacritics
+Detected 3 diacritics
+Detected 4 diacritics
+Detected 7 diacritics
+Detected 9 diacritics
+Detected 3 diacritics
+Detected 1 diacritics
+Detected 20 diacritics
+Detected 19 diacritics
+Detected 20 diacritics
+Detected 19 diacritics
+Detected 20 diacritics
+Detected 19 diacritics
+Detected 20 diacritics
+Detected 2 diacritics
+Empty page!!
+Empty page!!
+Detected 6 diacritics
+Detected 4 diacritics
+Detected 3 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 2 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 9 diacritics
+Warning:guessing pitch as xheight on row 1, block 2
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 6 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 21 diacritics
+Warning:guessing pitch as xheight on row 1, block 1
+Detected 12 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+terminate called after throwing an instance of 'cv::Exception'
+  what():  OpenCV(4.0.0-pre) /home/ganam/opencv-master/modules/highgui/src/window_gtk.cpp:1257: error: (-215:Assertion failed) found && "Can't destroy non-registered window" in function 'cvDestroyWindow'
+
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Detected 10 diacritics
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box
+Error in boxClipToRectangle: box outside rectangle
+Error in pixScanForForeground: invalid box

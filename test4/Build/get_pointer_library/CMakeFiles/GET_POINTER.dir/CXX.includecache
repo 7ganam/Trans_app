@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ganam/Desktop/translat_git_app/test4/get_pointer_library/get_pointer.cpp
+X11/Xlib.h
+-
+assert.h
+-
+unistd.h
+-
+stdio.h
+-
+malloc.h
+-
+
