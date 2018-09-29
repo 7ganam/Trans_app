@@ -12,4 +12,4 @@ tasks:
 - [ ] 9. search for other online xml file for eng-eng dictionary
 - [ ] 10. solve the problrm of missing nodes in the xml files from freedict.
 - [ ] 11. the GUI
-- [ ] 12. the make translation happens only when a key is clicked
+- [x] 12. the make translation happens only when a key is clicked
